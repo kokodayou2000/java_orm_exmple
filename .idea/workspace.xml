@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d264ce4f-78e1-4380-afc7-db39e073b786" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_01_PureJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_02_Hikari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_03_Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_04_ApacheDbUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_05_SpringJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/springjdbc/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/springjdbc/StuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/resources/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1_base/src/main/resources/hikari.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/HibernateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/service/IUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/service/impl/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/resources/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/test/java/org/deng/action/HibernateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\03062\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2X7NVtE18lhQsLq4USDzT0PIX4S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/03062/Desktop/Code/workspace/framework/mybatis/simple/simple/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2229885",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\03062\Desktop\Code\workspace\framework\mybatis\simple\simple\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\03062\Desktop\Code\workspace\framework\mybatis\simple\simple\_1_base" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.demo.chapter1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HibernateTest">
+    <configuration name="HibernateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.deng.action.HibernateTest" />
+      <module name="_2_orm_hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deng.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_04_ApacheDbUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.demo._04_ApacheDbUtils" />
+      <module name="_1_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.demo._02_Hikari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.demo._02_Hikari" />
+      <module name="_1_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.demo._03_Druid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.demo._03_Druid" />
+      <module name="_1_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.demo._05_SpringJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.demo._05_SpringJDBC" />
+      <module name="_1_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="_2_orm_hibernate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.deng.HibernateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HibernateTest" />
+        <item itemvalue="Application.org.demo._05_SpringJDBC" />
+        <item itemvalue="Application._04_ApacheDbUtils" />
+        <item itemvalue="Application.org.demo._03_Druid" />
+        <item itemvalue="Application.org.demo._02_Hikari" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d264ce4f-78e1-4380-afc7-db39e073b786" name="Changes" comment="" />
+      <created>1697976185245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697976185245</updated>
+      <workItem from="1697976186772" duration="4465000" />
+      <workItem from="1698023391888" duration="7000" />
+      <workItem from="1698219001872" duration="6649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
