@@ -1,7 +1,7 @@
-package org.demo;
+package org.deng;
 
-import org.demo.springjdbc.SpringConfig;
-import org.demo.springjdbc.StuRepository;
+import org.deng.springjdbc.SpringConfig;
+import org.deng.springjdbc.StuRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.sql.SQLException;

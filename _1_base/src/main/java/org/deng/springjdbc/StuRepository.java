@@ -1,6 +1,6 @@
-package org.demo.springjdbc;
+package org.deng.springjdbc;
 
-import org.demo.User;
+import org.deng.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

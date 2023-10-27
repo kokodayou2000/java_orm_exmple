@@ -1,4 +1,4 @@
-package org.demo.springjdbc;
+package org.deng.springjdbc;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.context.annotation.Bean;

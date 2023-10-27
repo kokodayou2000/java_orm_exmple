@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.deng.mapper.StuMapper">
+
+    <resultMap type="org.deng.domain.Stu" id="StuResult">
+        <id     property="sId"     column="s_id"     />
+        <result property="sName"   column="s_name"   />
+    </resultMap>
+    
+    <select id="selectStuById" resultMap="StuResult">
+        select * from stu_t where s_id = #{sId}
+    </select>
+
+    <select id="selectStuList" resultMap="StuResult">
+        select * from stu_t
+    </select>
+</mapper>

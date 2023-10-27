@@ -1,4 +1,4 @@
-package org.demo;
+package org.deng;
 
 public class User {
     public Integer id;

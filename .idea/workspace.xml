@@ -4,37 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d264ce4f-78e1-4380-afc7-db39e073b786" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_01_PureJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_02_Hikari.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_03_Druid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_04_ApacheDbUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_05_SpringJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/springjdbc/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/springjdbc/StuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/resources/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_1_base/src/main/resources/hikari.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/HibernateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/service/IUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/java/org/deng/service/impl/UserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/resources/User.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_2_orm_hibernate/src/test/java/org/deng/action/HibernateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d264ce4f-78e1-4380-afc7-db39e073b786" name="Changes" comment="base and hibernate">
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/mapper/StuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/objectFactory/StuObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_01_PureJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/_01_PureJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_02_Hikari.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/_02_Hikari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_03_Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/_03_Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_04_ApacheDbUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/_04_ApacheDbUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/_05_SpringJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/_05_SpringJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/springjdbc/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/springjdbc/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_1_base/src/main/java/org/demo/springjdbc/StuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/_1_base/src/main/java/org/deng/springjdbc/StuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,31 +62,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/03062/Desktop/Code/workspace/framework/mybatis/simple/simple/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2229885",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/03062/Desktop/Code/workspace/framework/mybatis/simple/simple/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2229885&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e14c2f4592cd389a7a7f4a7b1a1c5222&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\03062\Desktop\Code\workspace\framework\mybatis\simple\simple\src\main\resources" />
@@ -105,7 +103,7 @@
       <recent name="org.demo.chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HibernateTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HibernateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.deng.action.HibernateTest" />
       <module name="_2_orm_hibernate" />
@@ -119,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.deng.Main" />
+      <module name="_3_orm_mybaits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.deng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_04_ApacheDbUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.demo._04_ApacheDbUtils" />
+      <option name="MAIN_CLASS_NAME" value="org.deng._04_ApacheDbUtils" />
       <module name="_1_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.demo.*" />
+          <option name="PATTERN" value="org.deng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.demo._02_Hikari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.demo._02_Hikari" />
+    <configuration name="_05_SpringJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.deng._05_SpringJDBC" />
       <module name="_1_base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.demo.*" />
+          <option name="PATTERN" value="org.deng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,31 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.demo._03_Druid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.demo._03_Druid" />
-      <module name="_1_base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.demo._05_SpringJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.demo._05_SpringJDBC" />
-      <module name="_1_base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #14" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="14" requestIdentifier="#14" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="HibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="_2_orm_hibernate" />
@@ -180,11 +168,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="HTTP Request.generated-requests | #14" />
         <item itemvalue="Application.HibernateTest" />
-        <item itemvalue="Application.org.demo._05_SpringJDBC" />
         <item itemvalue="Application._04_ApacheDbUtils" />
-        <item itemvalue="Application.org.demo._03_Druid" />
-        <item itemvalue="Application.org.demo._02_Hikari" />
       </list>
     </recent_temporary>
   </component>
@@ -198,11 +185,65 @@
       <updated>1697976185245</updated>
       <workItem from="1697976186772" duration="4465000" />
       <workItem from="1698023391888" duration="7000" />
-      <workItem from="1698219001872" duration="6649000" />
+      <workItem from="1698219001872" duration="6810000" />
+      <workItem from="1698231518403" duration="3635000" />
+      <workItem from="1698306300703" duration="9000" />
+      <workItem from="1698307465104" duration="3109000" />
+      <workItem from="1698310627700" duration="102000" />
+      <workItem from="1698311633814" duration="4512000" />
+      <workItem from="1698371670014" duration="2736000" />
+      <workItem from="1698389827692" duration="9000" />
     </task>
+    <task id="LOCAL-00001" summary="base and hibernate">
+      <option name="closed" value="true" />
+      <created>1698225754254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698225754254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="base and hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="base and hibernate" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/objectFactory/ObjectFactory.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.4/mybatis-3.5.4-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/mapper/StuMapper.java</url>
+          <line>16</line>
+          <properties class="org.deng.mapper.StuMapper" method="selectStuById">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

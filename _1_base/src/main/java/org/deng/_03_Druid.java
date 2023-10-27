@@ -1,4 +1,4 @@
-package org.demo;
+package org.deng;
 
 import com.alibaba.druid.pool.DruidDataSource;
 
