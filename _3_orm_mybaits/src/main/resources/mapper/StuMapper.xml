@@ -4,16 +4,50 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.deng.mapper.StuMapper">
 
-    <resultMap type="org.deng.domain.Stu" id="StuResult">
-        <id     property="sId"     column="s_id"     />
-        <result property="sName"   column="s_name"   />
+    <resultMap id="courseResultMap" type="org.deng.domain.Course">
+        <id property="cId" column="c_id" />
+        <result property="cName" column="c_name" />
     </resultMap>
-    
-    <select id="selectStuById" resultMap="StuResult">
-        select * from stu_t where s_id = #{sId}
+
+    <resultMap type="org.deng.domain.Stu" id="StuResultMap">
+        <id     property="sId"     column="s_id"  jdbcType="INTEGER"   />
+        <result property="sName"   column="s_name"  jdbcType="VARCHAR"  />
+        <collection property="courseList" ofType="org.deng.domain.Course">
+            <id     property="cId"     column="c_id"  jdbcType="INTEGER"   />
+            <result     property="cName"     column="c_name"  jdbcType="VARCHAR"   />
+            <collection property="stuList" ofType="org.deng.domain.Stu">
+                <id     property="sId"     column="s_id"  jdbcType="INTEGER"   />
+                <result     property="sName"     column="s_name"  jdbcType="VARCHAR"   />
+            </collection>
+        </collection>
+    </resultMap>
+
+    <resultMap type="org.deng.domain.CSMap" id="CSMap">
+        <result property="sName"   column="s_name"  jdbcType="VARCHAR"  />
+        <result property="cName"   column="c_name"  jdbcType="VARCHAR"  />
+    </resultMap>
+
+    <select
+            id="selectStuById"
+            resultMap="StuResultMap"
+            useCache="true"
+    >
+<!--        select s.s_id,s.s_name,c.c_id,c.c_name-->
+<!--        from stu_t as s-->
+<!--        left join mybatis_t.c_s cs on s.s_id = cs.s_id-->
+<!--        left join mybatis_t.course_t c on c.c_id = cs.c_id-->
+<!--        where s.s_id = #{sId}-->
+        select s.s_id,s.s_name,c.c_id,c.c_name,s2.s_id,s2.s_name
+        from course_t as c
+        left join mybatis_t.c_s cs on c.c_id = cs.c_id
+        left join mybatis_t.stu_t s on s.s_id = cs.s_id
+        left join (select s1.s_id, s1.s_name
+        from stu_t as s1
+        right join mybatis_t.c_s as cc on cc.s_id = s1.s_id) as s2 on s2.s_id = c.c_id
+        where s.s_id = #{sId};
     </select>
 
-    <select id="selectStuList" resultMap="StuResult">
+    <select id="selectStuList" resultMap="StuResultMap">
         select * from stu_t
     </select>
 </mapper>

@@ -7,13 +7,23 @@
     <properties resource="config.properties"/>
 
     <settings>
+<!--        标准日志-->
         <setting name="logImpl" value="STDOUT_LOGGING"/>
-<!--        <setting name="logLevel" value="DEBUG"/>-->
+<!--        二级缓存-->
+        <setting name="cacheEnabled" value="false"/>
+<!--        延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+<!--        加载对象的所有属性-->
+        <setting name="aggressiveLazyLoading" value="true"/>
+<!--        -->
+<!--        <setting name="localCacheScope" value="STATEMENT"/>-->
+<!--        缓存的对象-->
+        <setting name="localCacheScope" value="SESSION"/>
     </settings>
 
     <!-- 对象工厂 User userName -->
-    <objectFactory type="org.deng.objectFactory.StuObjectFactory">
-        <property name="a" value="666"/>
+    <objectFactory type="org.deng.objectFactory.ObjectFactory">
+        <property name="sId" value="666"/>
     </objectFactory>
 
     <environments default="development">

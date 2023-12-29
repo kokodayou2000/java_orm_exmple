@@ -13,6 +13,15 @@ import java.util.List;
 
 
 public class Stu {
+    @Override
+    public String toString() {
+        return "Stu{" +
+                "sId=" + sId +
+                ", sName='" + sName + '\'' +
+                ", courseList=" + courseList +
+                '}';
+    }
+
     public Integer getsId() {
         return sId;
     }

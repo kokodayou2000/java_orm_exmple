@@ -6,12 +6,12 @@ import org.deng.domain.Stu;
 import java.util.List;
 import java.util.Properties;
 
-public class StuObjectFactory extends DefaultObjectFactory  {
+public class ObjectFactory extends DefaultObjectFactory  {
     @Override
     public <T> T create(Class<T> type) {
         if (type.equals(Stu.class)){
-            Stu stu = new Stu();
-            stu.setsName(stu.getsName()+" SomeThing");
+            Stu stu = (Stu) super.create(type);
+            stu.setsName(" SomeThing");
             return (T) stu;
         }
         return super.create(type);
