@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d264ce4f-78e1-4380-afc7-db39e073b786" name="Changes" comment="mybatis Example">
-      <change afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/CSMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_springboot_mybatis/src/main/java/org/example/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_springboot_mybatis/src/main/java/org/example/mapper/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_springboot_mybatis/src/main/java/org/example/model/TestDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_4_springboot_mybatis/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/script.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d264ce4f-78e1-4380-afc7-db39e073b786" name="Changes" comment="spring mybatis example">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/domain/Stu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/objectFactory/StuObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/java/org/deng/objectFactory/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/mapper/StuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_3_orm_mybaits/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +195,7 @@
       <workItem from="1702453708940" duration="2701000" />
       <workItem from="1702463489480" duration="1290000" />
       <workItem from="1702885736522" duration="646000" />
-      <workItem from="1703855435417" duration="165000" />
+      <workItem from="1703855435417" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="base and hibernate">
       <option name="closed" value="true" />
@@ -227,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698401212050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring mybatis example">
+      <option name="closed" value="true" />
+      <created>1703855623958</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703855623958</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base and hibernate" />
     <MESSAGE value="mybatis Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis Example" />
+    <MESSAGE value="spring mybatis example" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring mybatis example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
