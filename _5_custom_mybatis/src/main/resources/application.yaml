@@ -1,0 +1,5 @@
+custom:
+  mybatis:
+    url: jdbc:mysql://localhost:3506/mybatis?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true
+    username: root
+    password: 123456

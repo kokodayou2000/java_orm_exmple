@@ -12,6 +12,7 @@
         <module>_1_base</module>
         <module>_2_orm_hibernate</module>
         <module>_3_orm_mybaits</module>
+        <module>_5_custom_mybatis</module>
     </modules>
 
     <properties>
